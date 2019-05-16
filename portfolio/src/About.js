@@ -1,11 +1,23 @@
 import React from 'react'
 import Skills from './Skills'
 import Portrait from './Assets/Portrait.png'
+import GitHub from './Assets/icons/GitHub.png'
+import LinkedIn from './Assets/icons/LinkedIn.png'
 
 function About () {
     return (
         <div className="about" id="about">
+            
             <img className="portrait" src={Portrait}></img>
+            <div className="iconContainer">
+                <a href="https://github.com/seanmercer23">
+                    <img className="icon github" src={GitHub} />
+                </a>
+                &nbsp;
+               <a href="https://www.linkedin.com/in/sean-mercer/">
+                <img className="icon linkedin" src={LinkedIn} />
+               </a>
+            </div>
             <p className="bio">
                 I am a detail-driven, energetic Software Engineer 
                 who leverages my five-years of experience in video production
