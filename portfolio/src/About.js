@@ -7,15 +7,15 @@ import LinkedIn from './Assets/icons/LinkedIn.png'
 function About () {
     return (
         <div className="about" id="about">
-            
-            <img className="portrait" src={Portrait}></img>
+            <h3>About Me</h3>
+            <img alt="headshot" className="portrait" src={Portrait}></img>
             <div className="iconContainer">
                 <a href="https://github.com/seanmercer23">
-                    <img className="icon github" src={GitHub} />
+                    <img alt="github" className="icon github" src={GitHub} />
                 </a>
                 &nbsp;
                <a href="https://www.linkedin.com/in/sean-mercer/">
-                <img className="icon linkedin" src={LinkedIn} />
+                <img alt="linkedin" className="icon linkedin" src={LinkedIn} />
                </a>
             </div>
             <p className="bio">
