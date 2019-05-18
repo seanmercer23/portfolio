@@ -17,7 +17,7 @@ function Projects () {
                 <p className="bj">
                     This project is a single player Blackjack game built in
                     vanilla <strong>JavaScript</strong> with <strong>HTML</strong> and <strong>CSS</strong>, it 
-                    includes <strong>DOM</strong> event fired animations and sounds
+                    includes <strong>DOM</strong> event fired animations and sounds.
                 </p>
                 <a className="r-link" href="https://github.com/seanmercer23/blackjack">
                     <img alt="github" src={GitHub} className="icon repo" />
@@ -30,7 +30,7 @@ function Projects () {
                 <p className="gp">
                     Gifapolooza is a gif app built in <strong>React</strong> leveraging the <strong>Tenor Gif 
                     API</strong> to allow users to search gifs by term or spin a 
-                    wheel customly created in <strong>CSS</strong> for a random gif
+                    wheel customly created in <strong>CSS</strong> for a random gif.
                 </p>
                 <a className="r-link" href="https://github.com/seanmercer23/gifapalooza">
                     <img alt="github" src={GitHub} className="icon repo" />

@@ -21,7 +21,7 @@ function About () {
             <p className="bio">
                 I am a detail-driven, energetic Software Engineer 
                 who leverages my five-years of experience in video production
-                to develop effective solutions that exceed client’s needs 
+                to develop effective solutions that exceed clients' needs 
                 in time-sensitive situations. </p>
                 
                 <p> As a developer, I take a solutions-driven approach 
