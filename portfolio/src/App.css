@@ -172,8 +172,16 @@ a {
   grid-template-columns: repeat(2, 1fr);
   padding-bottom: 0;
   margin-bottom: 0;
+  grid-column-gap: 2%;
 }
 
+.projects .column1 {
+  padding-left: 3%;
+}
+
+.projects .column2 {
+  padding-right: 3%;
+}
 .screen {
   width: 75%;
   border: #FF9933 2px solid;
